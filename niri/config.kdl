@@ -309,8 +309,8 @@ binds {
     Mod+Shift+4 { move-column-to-workspace focus=false 4; }
     Mod+Shift+5 { move-column-to-workspace focus=false 5; }
 
-    Print { screenshot; }
-    Shift+Print { screenshot-screen; }
+    Print { screenshot show-pointer=false; }
+    Shift+Print { screenshot-screen show-pointer=false; }
     Ctrl+Print { screenshot-window; }
 
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
