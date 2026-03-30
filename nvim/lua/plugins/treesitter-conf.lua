@@ -20,6 +20,7 @@ local filetypes = {
 
 return {
     'nvim-treesitter/nvim-treesitter',
+    branch = "master",
     lazy = true,
     enabled = vim.loop.os_uname().sysname == "Linux",
     event = "VeryLazy",
