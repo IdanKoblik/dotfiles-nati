@@ -56,10 +56,10 @@ $env.config.float_precision = 2
 $env.config.ls.use_ls_colors = true
 $env.config.ls.clickable_links = true
 
-$env.config.hooks.pre_prompt = []
-$env.config.hooks.pre_execution = []
-$env.config.hooks.env_change = {}
-$env.config.hooks.command_not_found = null
+# $env.config.hooks.pre_prompt = []
+# $env.config.hooks.pre_execution = []
+# $env.config.hooks.env_change = {}
+# $env.config.hooks.command_not_found = null
 
 $env.config.color_config.foreground = null
 $env.config.color_config.background = null
