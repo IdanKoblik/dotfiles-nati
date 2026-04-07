@@ -46,6 +46,7 @@ local options = {
     autochdir = false,
     grepprg = 'rg --vimgrep',
     winborder = 'rounded',
+    showmode = false,
 }
 
 vim.opt.shortmess:append 'c'
@@ -70,5 +71,3 @@ vim.filetype.add({
 })
 
 vim.opt.whichwrap:append '<,>,[,],h,l'
-vim.lsp.handlers['textDocument/hover'] = vim.lsp.with(vim.lsp.handlers.hover, { border = 'rounded' })
-vim.lsp.handlers['textDocument/signatureHelp'] = vim.lsp.with(vim.lsp.handlers.signature_help, { border = 'rounded' })
