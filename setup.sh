@@ -14,6 +14,7 @@ CONFIGS=(
     niri
     fuzzel
     mako
+    nushell
 )
 
 # create backup directory
