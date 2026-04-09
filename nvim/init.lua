@@ -1,7 +1,0 @@
-require('user/keymaps')
-require('user/commands')
-require('user/options')
-require('user/neovide')
-require('user/colorschemes')
-require('user/lsp')
-require('lazy-startup')
